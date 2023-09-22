@@ -7,43 +7,35 @@ p{
     display:flex;
 }
 .Index {
-    min-height: 100px;
+    min-height: 200px;
     padding:2px;
     display: flex;
     align-content: space-evenly;
-    justify-items: center;
+    justify-items: stretch;
 }
 .textbox {
-    background-color: rgb(13, 22, 40);
-    flex:3;
+    background-color: rgba(29, 42, 68, 0.93);
+    min-height: 200px;
+    padding:3px;
+    border: 6px solid rgba(24, 28, 33, 0.66);
     order:2;
-    padding: 3px;
-    border: 6px solid rgba(24, 36, 59, 0.93);
-
-    height: 100%;
 }
-.rightI {
-    background-color: rgb(13, 22, 40);
+.leftI{
+    background-color: rgba(29, 42, 68, 0.93);
+    align-content: space-evenly;
     padding: 3px;
-    flex: 1.5;
-    order:3;
-    border: 6px solid rgba(24, 36, 59, 0.93);
-    justify-items: self-start;
-}
-.leftI {
-    background-color: rgb(13, 22, 40);
-    order:1;
-    flex:1.5;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    border: 6px solid rgba(18, 27, 42, 0.93);
     justify-items: center;
+    order:1;
+}
+.rightI{
+    background-color: rgba(29, 42, 68, 0.93);
     padding: 3px;
-    border: 6px solid rgba(24, 36, 59, 0.93);
+    border: 6px solid rgba(18, 27, 42, 0.93);
+    justify-items: self-start;
+    order:3;
 }
-.iframe1 {
-    width: 20%;
-    height: 20%;
-}
+
 nav ul {
     display: flex;
     margin:0;
