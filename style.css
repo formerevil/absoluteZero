@@ -60,14 +60,11 @@ nav a, nav a:visited{
     padding: 8px 0px;
     color: #ffffff;
 }
-nav a:hover{
-    color: #141f31;
-    background-color: rgba(194, 186, 239, 0.26);
-}
+
 .parent1 {
     background-color: rgba(0, 128, 0, 0.68);
     min-height:100px;
-    padding:2px;
+    padding:4px;
     display:flex;
     justify-content:space-between;
     align-items: stretch;
@@ -92,16 +89,22 @@ a, a:visited{
     background-color: rgba(81, 136, 136, 0.63);
     order:3;
     flex:2;
+    padding:6px;
 }
 .animal {
     background-color: rgba(72, 105, 169, 0.63);
     order:2;
     flex:1;
+    padding:6px;
 }
 .introa {
     background-color: rgba(78, 72, 169, 0.63);
     order:1;
     flex:1;
     width: 20%;
-    padding: 8px 0px;
+    padding: 6px;
+}
+.infobox {
+    border: 7px solid rgba(18, 27, 42, 0.89);
+    padding: 4px;
 }
